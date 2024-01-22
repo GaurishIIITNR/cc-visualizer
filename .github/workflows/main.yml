@@ -2,7 +2,7 @@ name: CC-Visualizer
 
 on:
   push:
-    branches: [ main ]
+    branches: [ generic_api ]
   schedule:
     - cron: "0 4 * * *"
   workflow_dispatch:
