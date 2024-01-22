@@ -19,13 +19,12 @@ public class ImageService {
     public void getImage(String userName) {
         try {
 			String filePath = "src/main/java/com/ccvisualizer/ccvisualizer/index.html";
-			String outputSvgFilePath = "src/main/java/com/ccvisualizer/ccvisualizer/"+userName+".svg";
+			String outputSvgFilePath = "src/main/java/com/ccvisualizer/ccvisualizer/img/"+ userName +".svg";
 			// Parse the HTML file
 			File input = new File(filePath);
 			Document document = Jsoup.parse(input, "UTF-8");
 
 			// String username from user_name
-			
 
 			// Replace the inner text of an element with a new value
 			details(userName, document);

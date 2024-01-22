@@ -15,10 +15,10 @@ public class ImageController {
         @Autowired
          ImageService imageService;
 
-        @GetMapping("/image/{userName}")
+        @GetMapping("/{userName}")
         public String getImage(@PathVariable("userName") String userName) {
                 imageService.getImage(userName);
-                String outPutUrl = OUTPUT_SVG_FILE_PATH+ userName +".svg";
+                String outPutUrl = OUTPUT_SVG_FILE_PATH + userName +".svg";
                 return outPutUrl;
             }
 }

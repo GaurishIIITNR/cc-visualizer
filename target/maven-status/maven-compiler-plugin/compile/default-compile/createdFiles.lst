@@ -1,6 +1,5 @@
-com\ccvisualizer\ccvisualizer\CcVisualizerApplication.class
-com\ccvisualizer\ccvisualizer\ImageUtility.class
-com\ccvisualizer\ccvisualizer\user_name.class
-com\ccvisualizer\ccvisualizer\Details.class
-com\ccvisualizer\ccvisualizer\ImageController.class
-com\ccvisualizer\ccvisualizer\ImageService.class
+com/ccvisualizer/ccvisualizer/Details.class
+com/ccvisualizer/ccvisualizer/ImageController.class
+com/ccvisualizer/ccvisualizer/CcVisualizerApplication.class
+com/ccvisualizer/ccvisualizer/ImageService.class
+com/ccvisualizer/ccvisualizer/ImageUtility.class
