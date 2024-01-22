@@ -39,9 +39,7 @@ jobs:
 
       # Generate all statistics images
       - name: Generate images
-        run: |
-          mvn spring-boot:run
-          working-directory: ./src/main/java/com/ccvisualizer/ccvisualizer/CcVisualizerApplication.java
+        run: mvn spring-boot:run
 
       # Commit all changed files to the repository
       - name: Commit to the repo
