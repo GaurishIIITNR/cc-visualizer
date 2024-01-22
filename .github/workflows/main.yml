@@ -35,7 +35,7 @@ jobs:
 
       # Build the Java project with Maven
       - name: Build with Maven
-        run: mvn -e -X package --file ./pom.xml
+        run: mvn -B clean install --file ./pom.xml
 
       # Generate all statistics images
       - name: Generate images
