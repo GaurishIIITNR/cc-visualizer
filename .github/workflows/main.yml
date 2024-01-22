@@ -17,15 +17,6 @@ jobs:
     steps:
       # Check out repository under $GITHUB_WORKSPACE, so the job can access it
       - uses: actions/checkout@v2
-      - name: Deploy to Production
-        id: deploy
-        run: |
-          # Assuming your deployment script sets the deployment URL
-          DEPLOYMENT_URL=$(./deploy.sh ${{ github.run_id }} ${{ github.sha }})
-
-          # Set the output variable for later use
-          echo "DEPLOYMENT_URL=${DEPLOYMENT_URL}" >> $GITHUB_ENV
-          echo "::set-output name=deployment_url::${DEPLOYMENT_URL}"
         
       # Set up JDK 17
       - name: Set up JDK 17
