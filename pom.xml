@@ -51,6 +51,15 @@
 
 	<build>
 		<plugins>
+			<plugin>
+		            <groupId>org.apache.maven.plugins</groupId>
+		            <artifactId>maven-compiler-plugin</artifactId>
+		            <version>3.11.0</version> <!-- Use the latest version compatible with Java 17 -->
+		            <configuration>
+		                <source>17</source>
+		                <target>17</target>
+		            </configuration>
+		        </plugin>
 		    <plugin>
 			<groupId>org.apache.maven.plugins</groupId>
 			<artifactId>maven-surefire-plugin</artifactId>
