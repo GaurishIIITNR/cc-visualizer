@@ -4,14 +4,14 @@ CodeChef Visualizer enhances your GitHub profile by dynamically extracting data 
 # Codechef Stat Visualizer
 
 <a href="https://github.com/GaurishIIITNR/cc-visualizer">
-<img src="https://github.com/GaurishIIITNR/cc-visualizer/blob/main/src/main/java/com/ccvisualizer/ccvisualizer/output.svg" height = "400px" width = "500px"/>
-<img src="https://raw.githubusercontent.com/atal02/cc-visualizer/61e3da9053f7107a9d9620b153e5bf511d10f5fe/src/main/java/com/ccvisualizer/ccvisualizer/output.svg" height = "400px" width = "500px"/>
+<img src="https://github.com/GaurishIIITNR/cc-visualizer/blob/main/src/main/java/com/ccvisualizer/ccvisualizer/output.svg" height = "400px" width = "450px"/>
+<img src="https://raw.githubusercontent.com/atal02/cc-visualizer/61e3da9053f7107a9d9620b153e5bf511d10f5fe/src/main/java/com/ccvisualizer/ccvisualizer/output.svg" height = "450px" width = "500px"/>
 </a>
 
 # Installation
 1. Star this repository :pray:
 2. Create a copy of this repository by clicking
-   [here](https://github.com/GaurishIIITNR/cc-visualizer/generate).
+   [here](https://github.com/GaurishIIITNR/cc-visualizer/fork).
 4. Go to [user_name.java](src/main/java/com/ccvisualizer/ccvisualizer/user_name.java) and put your codechef handle in the `username` key.
 5. Go to the [Actions Page](../../actions/workflows/main.yml) and press "Run Workflow" on the
    right side of the screen to generate images for the first time.
