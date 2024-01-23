@@ -27,7 +27,7 @@ CodeChef Visualizer enhances your GitHub profile by dynamically extracting data 
    value to your GitHub username.
 
    ```md
-   ![](https://github.com/your-github-username/cc-visualizer/blob/main/src/main/java/com/ccvisualizer/ccvisualizer/output.svg)
+   <img src="https://github.com/your-github-username/cc-visualizer/blob/main/src/main/java/com/ccvisualizer/ccvisualizer/output.svg" width="500" height="500">
    
 ### Inspiration
 This project is heavily inspired by the [cf-stats](https://github.com/sudiptob2/cf-stats) project.
