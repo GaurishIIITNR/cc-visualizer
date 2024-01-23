@@ -31,7 +31,8 @@ public class Details {
         else if(rate < 1800) return "3★;#3366CC";
         else if(rate < 2000) return "4★;#684273";
         else if(rate < 2200) return "5★;#FFBF00";
-        else if(rate < 2500) return "6*;#FF7F00";
-        else return "7*;#D0011B";
+        else if(rate < 2500) return "6★;#FF7F00";
+        else return "7★;#D0011B";
+
     }
 }
