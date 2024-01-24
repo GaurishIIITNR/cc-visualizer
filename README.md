@@ -5,8 +5,8 @@ CodeChef Visualizer enhances your GitHub profile by dynamically extracting data 
 
 <a href="https://github.com/GaurishIIITNR/cc-visualizer">
    <table> 
-      <tr><img src="https://github.com/GaurishIIITNR/cc-visualizer/blob/main/src/main/java/com/ccvisualizer/ccvisualizer/output.svg" height = "400px" width = "500px"/></tr>
-      <tr><img src="https://raw.githubusercontent.com/atal02/cc-visualizer/0254cef9729f014f37ebbf4492a5964ce84e00b4/src/main/java/com/ccvisualizer/ccvisualizer/output.svg" height = "400px" width = "500px"//>
+      <tr><img src="https://github.com/GaurishIIITNR/cc-visualizer/blob/main/src/main/java/com/ccvisualizer/ccvisualizer/output.svg" height = "400px" width = "400px"/></tr>
+      <tr><img src="https://raw.githubusercontent.com/atal02/cc-visualizer/0254cef9729f014f37ebbf4492a5964ce84e00b4/src/main/java/com/ccvisualizer/ccvisualizer/output.svg" height = "400px" width = "400px"//>
 </tr>
       </table>
 </a>
