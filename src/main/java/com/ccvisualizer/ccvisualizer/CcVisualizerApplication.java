@@ -80,22 +80,23 @@ public class CcVisualizerApplication {
 
 	private static Element convertToSvg(Document document) {
 		// Create an SVG-like structure
-		Element svgElement = new Element("svg");
-		svgElement.attr("xmlns", "http://www.w3.org/2000/svg");
+		// Element svgElement = new Element("svg");
+		// svgElement.attr("xmlns", "http://www.w3.org/2000/svg");
 
-		// Copy the body content into a foreignObject
-		Element foreignObject = new Element("foreignObject");
-		foreignObject.attr("width", "100%");
-		foreignObject.attr("height", "100%");
+		// // Copy the body content into a foreignObject
+		// Element foreignObject = new Element("foreignObject");
+		// foreignObject.attr("width", "100%");
+		// foreignObject.attr("height", "100%");
 
-		Element body = document.body();
-		if (body != null) {
-			foreignObject.append(body.html());
-		}
+		// Element body = document.body();
+		// if (body != null) {
+		// 	foreignObject.append(body.html());
+		// }
 
-		// Append the foreignObject to the SVG
-		svgElement.appendChild(foreignObject);
+		// // Append the foreignObject to the SVG
+		// svgElement.appendChild(foreignObject);
 
+		Element svgElement = document.select("svg").first();
 		return svgElement;
 	}
 
