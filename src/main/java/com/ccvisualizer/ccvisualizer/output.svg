@@ -132,7 +132,7 @@
             </g>
            </g>
           </svg> Contest Rating</td>
-         <td id="curr-r" style="color: #684273">1981</td>
+         <td id="curr-r" style="color: #684273">1994</td>
         </tr>
         <tr style="animation-delay: 150ms">
          <td id="max-r-name" style="color: #FFBF00 ">
@@ -151,7 +151,7 @@
             </g>
            </g>
           </svg> Max Rating</td>
-         <td id="max-r" style="color: #FFBF00">2029</td>
+         <td id="max-r" style="color: #FFBF00">2043</td>
         </tr>
         <tr style="animation-delay: 300ms">
          <td style="color:#58a6ff">
@@ -167,7 +167,7 @@
             </path>
            </g>
           </svg> Country Rank</td>
-         <td id="c-rank" style="color:#58a6ff">1261</td>
+         <td id="c-rank" style="color:#58a6ff">1191</td>
         </tr>
         <tr style="animation-delay: 450ms">
          <td style="color:#58a6ff">
@@ -183,7 +183,7 @@
             </path>
            </g>
           </svg> Global Rank</td>
-         <td id="g-rank" style="color:#58a6ff">1899</td>
+         <td id="g-rank" style="color:#58a6ff">1788</td>
         </tr>
         <tr style="animation-delay: 600ms">
          <td style="color:#58a6ff">
